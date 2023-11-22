@@ -1,0 +1,1341 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'pt' Physical Memory: 14208 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+A:/UNITY/My project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+54127
+Successfully changed project path to: A:/UNITY/My project
+A:/UNITY/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8504] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 4269677748 [EditorId] 4269677748 [Version] 1048832 [Id] WindowsEditor(7,PCPEDRO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8504] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 4269677748 [EditorId] 4269677748 [Version] 1048832 [Id] WindowsEditor(7,PCPEDRO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 4.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path A:/UNITY/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7104 MB
+    Driver:   31.0.21905.1001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007431 seconds.
+- Loaded All Assemblies, in  0.280 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.199 seconds
+Domain Reload Profiling: 477ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (87ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (95ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (199ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (151ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.454 seconds
+Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.437 seconds
+Domain Reload Profiling: 890ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (105ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (315ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.9 KB). Loaded Objects now: 3547.
+Memory consumption went from 120.9 MB to 120.8 MB.
+Total: 2.510700 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.121700 ms MarkObjects: 2.121400 ms  DeleteObjects: 0.081000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.388 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.744 seconds
+Domain Reload Profiling: 1130ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (745ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (365ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (266ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3550.
+Memory consumption went from 121.9 MB to 121.8 MB.
+Total: 2.181200 ms (FindLiveObjects: 0.242600 ms CreateObjectMapping: 0.076900 ms MarkObjects: 1.818100 ms  DeleteObjects: 0.042500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 493733.269007 seconds.
+  path: Assets/Prefabs/Laranja.prefab
+  artifactKey: Guid(fbb28d0eacfae674f91951697b47f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laranja.prefab using Guid(fbb28d0eacfae674f91951697b47f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f60c5f4bbfcffba83fd41f31d22dab0') in 0.100369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd518d8e216bd5acfb7054697a773fc3e') in 0.009782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 40.986140 seconds.
+  path: Assets/Prefabs/Laranja.prefab
+  artifactKey: Guid(fbb28d0eacfae674f91951697b47f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laranja.prefab using Guid(fbb28d0eacfae674f91951697b47f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc6f7dcf3c8f64d854331fd16bf84c2') in 0.009040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Melancia.prefab
+  artifactKey: Guid(93a03d80ced67b54981936a62f1429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Melancia.prefab using Guid(93a03d80ced67b54981936a62f1429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bfaf7b8fd4beb54bb8ed8ac22e8038') in 0.006591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ea6eaffa854a086c924c8ff241c7b0') in 0.011841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 2.429868 seconds.
+  path: Assets/Prefabs/Laranja.prefab
+  artifactKey: Guid(fbb28d0eacfae674f91951697b47f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laranja.prefab using Guid(fbb28d0eacfae674f91951697b47f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7aeeade6b83ac57d8d14674de11cc4b') in 0.009192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfa5bc8d487f2c337c3b8a2e5cefa8c') in 0.008472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.373 seconds
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.722 seconds
+Domain Reload Profiling: 1094ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (722ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (365ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3561.
+Memory consumption went from 128.1 MB to 128.1 MB.
+Total: 3.896900 ms (FindLiveObjects: 0.492300 ms CreateObjectMapping: 0.206300 ms MarkObjects: 3.110100 ms  DeleteObjects: 0.086300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.354 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.703 seconds
+Domain Reload Profiling: 1055ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (703ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (342ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3564.
+Memory consumption went from 130.3 MB to 130.2 MB.
+Total: 2.698100 ms (FindLiveObjects: 0.244200 ms CreateObjectMapping: 0.160800 ms MarkObjects: 2.238800 ms  DeleteObjects: 0.053000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.332 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.785 seconds
+Domain Reload Profiling: 1115ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (785ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (395ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3567.
+Memory consumption went from 132.2 MB to 132.2 MB.
+Total: 3.355200 ms (FindLiveObjects: 0.381200 ms CreateObjectMapping: 0.233100 ms MarkObjects: 2.649700 ms  DeleteObjects: 0.090100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 171.908827 seconds.
+  path: Assets/Prefabs/Fruits_base.prefab
+  artifactKey: Guid(2d0e151739f30f64e8e2e687154cb9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruits_base.prefab using Guid(2d0e151739f30f64e8e2e687154cb9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756e6cf3e631fd633fda460812e3f8cd') in 0.081391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Laranja.prefab
+  artifactKey: Guid(fbb28d0eacfae674f91951697b47f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laranja.prefab using Guid(fbb28d0eacfae674f91951697b47f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3a1507a235c457cd5a2d1d42c60adc') in 0.009996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.004952 seconds.
+  path: Assets/Prefabs/Melancia.prefab
+  artifactKey: Guid(93a03d80ced67b54981936a62f1429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Melancia.prefab using Guid(93a03d80ced67b54981936a62f1429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceba0346a8b3057c5c3e9c518c2c4781') in 0.007309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2487910a1b294c9ca55a335ff76e65e') in 0.007527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a0703c7435d0b2e1e5c9b88a96e3e0') in 0.008405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e62df905832bf23e2fbfa9185f47b68') in 0.009176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.384 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.759 seconds
+Domain Reload Profiling: 1140ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.1 KB). Loaded Objects now: 3571.
+Memory consumption went from 133.9 MB to 133.9 MB.
+Total: 3.686500 ms (FindLiveObjects: 0.197700 ms CreateObjectMapping: 0.125100 ms MarkObjects: 3.290200 ms  DeleteObjects: 0.072800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 182.963458 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783582b5cf1156f8429d8874b70163e6') in 0.182735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Laranja.prefab
+  artifactKey: Guid(fbb28d0eacfae674f91951697b47f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laranja.prefab using Guid(fbb28d0eacfae674f91951697b47f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab2897cad6099a4ed6821a254c76f1e') in 0.010674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Prefabs/Melancia.prefab
+  artifactKey: Guid(93a03d80ced67b54981936a62f1429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Melancia.prefab using Guid(93a03d80ced67b54981936a62f1429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c57923ee6f0ead4e0ea5a4265d919fe') in 0.015083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf3abf471ae6f7a2445badd3265b7b0') in 0.010642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 4.577726 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e219fca0d71f59ae99aacd6db465df') in 0.011356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d421544171f325861cf07e43a8ae1a1') in 0.016857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 15.007117 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58386eef7ff76ad6dbf08ebf41e62c21') in 0.010043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28ab53cbf53fce229d9564347469650') in 0.008674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 0.988619 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913b9fcb1514990ee59589bf30a1cf21') in 0.010029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Melancia.prefab
+  artifactKey: Guid(93a03d80ced67b54981936a62f1429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Melancia.prefab using Guid(93a03d80ced67b54981936a62f1429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e06acf1b16dd8991e1106e5ead09e4') in 0.010979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 3.204452 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cda2b32a2dc817fe69c3a2f39c4806') in 0.011565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653c96c483f82ed1b8c162f0a59bf7cc') in 0.008266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 13.035792 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89384d087dfbc29712a40c705eb78962') in 0.011057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6db16e496cfa70aa3adf11f7270839b') in 0.009777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 13.704950 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f426f2085a931b49871f1b90d468f5c') in 0.010463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70df7a28408ca10adfee973f7dfc8e86') in 0.008246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 8.346771 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73641c8f32cdf4425a6ec66eef328d24') in 0.008778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57469b5ebe3de6632e67a66affae758c') in 0.008513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 2.997492 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af42b90d04f8bee15c9cf9d1a6e71b68') in 0.009372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff18a43f1fb3d857eb2c5d221f18a84e') in 0.009482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 37.944888 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9af1318e91fb63b00f9fb391c1d61e') in 0.009508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7281c7e758e2960dd81eb8fb708d9fd') in 0.009059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 5.914307 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd742aa69eca48be2c2bb40b96ab1e52') in 0.009087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79517e4c936ae32ce65e8b720793d9a') in 0.008320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 6.040107 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49219ae1e670ca570d9d8874f6361c3') in 0.008506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073814a425c122400bbdb133bfe6883b') in 0.009227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 3.016821 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942e1fa91ea8bab38a878131d5ac8866') in 0.008778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc8d00a39b0b187a8d5d827ca6ad6b9') in 0.008068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 1.904915 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c6e717ec0343dc018c97d7e89be439') in 0.019079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23433bccf76bc38de41456587e82d27') in 0.014207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 11.522978 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290c797168f702833a5058ee65c7a05e') in 0.009708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bde14fbccd8f9e1d0c03d887d9c83bf') in 0.009180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 9.025470 seconds.
+  path: Assets/Materials/Background.mat
+  artifactKey: Guid(6775cb1678966a747803878695a32cc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Background.mat using Guid(6775cb1678966a747803878695a32cc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa20e203dd831e85c9ba27fd3a7e2657') in 0.125980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/Fruits_base.prefab
+  artifactKey: Guid(2d0e151739f30f64e8e2e687154cb9e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Fruits_base.prefab using Guid(2d0e151739f30f64e8e2e687154cb9e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b81d2f5a648d799039a1dcd0e429a52') in 0.027774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Materials/Maçã_outsite.mat
+  artifactKey: Guid(93e9b20fd25084746821cd65e91c55d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Maçã_outsite.mat using Guid(93e9b20fd25084746821cd65e91c55d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbf293f523f630872337eac85ee7a8aa') in 0.013607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Scenes/FruitNinja.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/FruitNinja.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b3c468d1efac54c0f38afffc049e0d8') in 0.007784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d76e3dab2ffa970c2cb44d2bf137718') in 0.014892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/Limao_outside.mat
+  artifactKey: Guid(f9734bf70bc8d7a4da704d4ffa488aff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Limao_outside.mat using Guid(f9734bf70bc8d7a4da704d4ffa488aff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25e89f4d7aaddb70e1555b5a2b091df7') in 0.012268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Melancia.prefab
+  artifactKey: Guid(93a03d80ced67b54981936a62f1429f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Melancia.prefab using Guid(93a03d80ced67b54981936a62f1429f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de6778e44144d791dcf54dc41b985928') in 0.014861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/Kiwi_outside.mat
+  artifactKey: Guid(58c5c7c1f53eb734e9a62fd3f507436b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Kiwi_outside.mat using Guid(58c5c7c1f53eb734e9a62fd3f507436b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae8551bd1c9f3d20a6c00e0c028fc7a2') in 0.012787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/Maçã_inside.mat
+  artifactKey: Guid(6c607e724822a6a43ab58935e440f183) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Maçã_inside.mat using Guid(6c607e724822a6a43ab58935e440f183) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9bd461383af20f7f2c5da36bf06b5bf') in 0.011340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 33.492697 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cdf31d2e7f67b589380ea09b2c169e') in 0.010112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379143aa04a321120c9d462b5178f573') in 0.009560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 24.571528 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5f76c19afd4ea3ac00056339de11d6') in 0.012986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a1140eb879167a5d26631f694e92cb') in 0.012604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 4.599279 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed58599b416c335c63e89c40ef99b99a') in 0.009036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed21dbc5035c37e3b5eb83eeeca6552') in 0.007679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 10.400889 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5270b0e2e33850cb3446f2b46633397f') in 0.011160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ee31f78bfb1b4960e276d1fd35c5a6') in 0.009435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 3.608931 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edd9549e8fb3fc1f897c141e67422e2') in 0.009450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d674a0781cb346e3b5e3f5b0d1e57f') in 0.007509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 4.420353 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bf4db5e32ce1fe881035ee215779f2') in 0.010463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460ba9de4fdc7b2b4f044aad62e41e05') in 0.007452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 7.466164 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c137570ba3b71759137268f5cdfaae3') in 0.008910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da886e75de1ad2d70b36a802587a9e2') in 0.009594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 46.756906 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ce7f9a0028acf78c99e282ccb125dd') in 0.008899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b1cf88c6105071f7d74210c4c308c7') in 0.008032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 13.760805 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f81685a3df53891be89269ca9a2a1e4') in 0.008804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ca1892033a0d55e87984974b162758') in 0.007512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 35.824984 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9842a6f26bff6dc177bd16749a9cf7') in 0.011402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09555d4726879804154fffd21770b371') in 0.010503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 9.428498 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b51157c50d571ca7176b1c50f652091') in 0.008270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7e5a10fc4ed41f10344f28f978511f') in 0.008799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 2.174486 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3162b5b32d2720375b5665afc2167c3') in 0.008700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778f7e9e1857cd7c321b9192dc402d2a') in 0.008142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 0.184173 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf763fe62949ee7e8e4c279c93d30c91') in 0.010503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca01c4179c5616bbd5e96e316107815') in 0.009673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 1.796102 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a0fdefae95b9786e3641b5fe7decc8') in 0.008131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61ad24e7722dfcc7d40b203520ab648') in 0.009922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 38.931326 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c3d042b54bc2dad0ad135ccf717a05') in 0.009352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6683195f404e6f2eaa0b0fbdb77814') in 0.007555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 22.397653 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2753b8d6ee3831ad91cbefdb482b760') in 0.061296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162cb9992c258844e8827e49d6d0c626') in 0.010148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 29.076271 seconds.
+  path: Assets/Materials/Maçã_outsite.mat
+  artifactKey: Guid(93e9b20fd25084746821cd65e91c55d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Maçã_outsite.mat using Guid(93e9b20fd25084746821cd65e91c55d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb681a8b71f47d75eae81ba7a0011634') in 0.040036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.029081 seconds.
+  path: Assets/Materials/Limão_inside.mat
+  artifactKey: Guid(d4795d37a5ab1b947b3aadeae6f62e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Limão_inside.mat using Guid(d4795d37a5ab1b947b3aadeae6f62e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9684ca6f59b9a8372002720b8f477fe4') in 0.009497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.032379 seconds.
+  path: Assets/Materials/Laranja_outside.mat
+  artifactKey: Guid(a3473e98c347e384b9612a097c7b6062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Laranja_outside.mat using Guid(a3473e98c347e384b9612a097c7b6062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2a541c7de2a2abec57aa7cab353cd2') in 0.010903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.774303 seconds.
+  path: Assets/Materials/Kiwi_outside.mat
+  artifactKey: Guid(58c5c7c1f53eb734e9a62fd3f507436b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Kiwi_outside.mat using Guid(58c5c7c1f53eb734e9a62fd3f507436b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfcfbd1fb67230d5d08aae95344d146') in 0.010020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 38.977248 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80ad7952c62e97e6d2e82957b87dd81') in 0.011117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Melancia.prefab
+  artifactKey: Guid(93a03d80ced67b54981936a62f1429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Melancia.prefab using Guid(93a03d80ced67b54981936a62f1429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a853d70395d2a2f071563be12fa25e3') in 0.009990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a603c2a39ea5bd399666640689d193') in 0.007903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 9.808993 seconds.
+  path: Assets/Prefabs/Laranja.prefab
+  artifactKey: Guid(fbb28d0eacfae674f91951697b47f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laranja.prefab using Guid(fbb28d0eacfae674f91951697b47f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1c1c08273e48f1bf4407c485c77312') in 0.011637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Melancia.prefab
+  artifactKey: Guid(93a03d80ced67b54981936a62f1429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Melancia.prefab using Guid(93a03d80ced67b54981936a62f1429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30893f1eac330ef041f37804afadaca2') in 0.009816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a09951ed250805b49778fa37c75217') in 0.011629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 199.970618 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ab4b6bb340fa037dc8d95afe632b29') in 0.012967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Melancia.prefab
+  artifactKey: Guid(93a03d80ced67b54981936a62f1429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Melancia.prefab using Guid(93a03d80ced67b54981936a62f1429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f9672086ba95f65a049004a91366e4') in 0.009743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Maça.prefab
+  artifactKey: Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maça.prefab using Guid(11f07e2d049309345ace6a08181c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e2cf0a88018c5e49c002ee5d2f9556') in 0.013355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 7.558117 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(32d8ecc10d2f5ef4d8f6f8df532121a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbd6e4faa3348091b28832c6f9afa6f') in 0.010103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Limao.prefab
+  artifactKey: Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Limao.prefab using Guid(0f3ffe16c4b3fff4982357577522cba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6de03fe4734b69dec2e503819f9b74') in 0.008951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A opera��o de E/S foi anulada devido a uma sa�da de thread ou a uma requisi��o de aplicativo.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
